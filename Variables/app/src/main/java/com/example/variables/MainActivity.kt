@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
         var x=10
         print(x*20)
 
-        x=30  // x var bir değişken olduğu için yeni bir değer atayabiliriz
+        x=30  // x var türünde bir değişken olduğu için yeni bir değer atayabiliriz
         println(x*30)
 
         var y=5
