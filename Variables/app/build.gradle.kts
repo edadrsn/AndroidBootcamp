@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.variables"
+    namespace = "com.edadursun.variables"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.variables"
+        applicationId = "com.edadursun.variables"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
