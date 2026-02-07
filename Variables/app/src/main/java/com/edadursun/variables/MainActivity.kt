@@ -142,6 +142,11 @@ class MainActivity : AppCompatActivity() {
         println("My name is $firstName $lastName")
         println("My name length is ${firstName.length}")
 
+        //PAIR : bir veri çiftinin tek bir veri içinde tutulmasını sağlar
+        var (a,b)=Pair(3,7)
+        println(a)
+        println(b)
+
         println("---------------------------TYPE CASTING------------------------")
         //Türleri birbirine dönüştürmek için kullanılır.
         //toByte(),toShort(),toInt(),toLong(),toFloat(),toDouble(),toChar()
